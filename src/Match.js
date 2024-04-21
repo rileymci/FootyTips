@@ -38,7 +38,7 @@ const Match = () => {
             <ul>
                 {matches.map(match => (
                     <li key={match._id}>
-                        Home Team: {match.homeTeam && match.homeTeam.name}
+                        Home Team: {match.homeTeam.name}
                     </li>
                 ))}
             </ul>
